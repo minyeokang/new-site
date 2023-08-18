@@ -174,7 +174,7 @@ const Work = () => {
                         onMouseLeave={isDesktop ? handleMouseLeave : undefined}
                         className="p-3"
                       >
-                        <div className="">{item.title}</div>
+                        <div className="fs-5">{item.title}</div>
                         <div className="content-img">
                           <figure className="content-thumb">
                             <img src={item.imgUrl} alt="" />
@@ -188,7 +188,7 @@ const Work = () => {
                 </div>
                 {item.isOpen && (
                   <div className="content-box p-3 pt-0 mx-2">
-                    <p>{item.content}</p>
+                    <p className="fs-6">{item.content}</p>
                   </div>
                 )}
               </li>
