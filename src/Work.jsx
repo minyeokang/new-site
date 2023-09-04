@@ -3,7 +3,7 @@ import { websiteData } from "./data";
 import { Link } from "react-router-dom";
 import klayton from "./assets/imgs/thumb-klayton.png";
 import cafe24 from "./assets/imgs/thumb-cafe24.png";
-import schema from "./assets/imgs/thumb-schema.png";
+import dongil from "./assets/imgs/thumb-dongil.png";
 import { useRef } from "react";
 import { useInView } from "framer-motion"
 const Work = () => {
@@ -137,13 +137,13 @@ const Work = () => {
               >
                 <Link
                   to={
-                    "https://studio-jt.co.kr/%ec%8a%a4%ed%82%a4%eb%a7%88-%eb%a7%88%ed%81%ac%ec%97%85/"
+                    "https://dongil82.co.kr/NOW%20DI/%ED%95%B4%EB%A7%81%ED%84%B4%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4-%EC%98%A4%EC%85%98%ED%9E%90%EC%A6%88-%EB%94%94%EC%9E%90%EC%9D%B8-%EC%8A%A4%ED%86%A0%EB%A6%AC/"
                   }
                   target="_blank"
                   rel="noreferrer noopenner"
                 >
                   <figure>
-                    <img src={schema} alt="" />
+                    <img src={dongil} alt="" />
                   </figure>
                 </Link>
                 <div className="thumb-overlay"></div>
